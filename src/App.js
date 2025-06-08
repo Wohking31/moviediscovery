@@ -27,6 +27,7 @@ function App() {
         
         // Update the state with the movie results
         setMovies(data.results);
+        console.log(data.results); // Log the results for debugging
 
       } catch (err) {
         // If an error occurs, update the error state
